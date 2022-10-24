@@ -1,0 +1,29 @@
+.heading{
+    font-size: x-large;
+    background-color: aqua;
+}
+
+body{
+    background-size: cover;
+    text-align:center;
+}
+.img_disc{
+    width: 150px;
+    height: 150px;
+}
+
+#speed,#vol{
+    margin-top: 5px;
+    width: 150px;
+}
+
+.speed_div{
+    float:left;
+}
+
+.vol_div{
+    float:right;
+}
+canvas {
+    border: 1px solid white;
+}
