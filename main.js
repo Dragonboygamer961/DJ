@@ -1,7 +1,7 @@
-my_music = "";
+sound = "";
 
 function perload(){
-    my_music = loadSound("music.mp3");
+    sound = loadSound("music.mp3");
 }
 
 function setup(){
@@ -18,5 +18,5 @@ function draw() {
 
 function PLAY_MUSIC() {
     
-    my_music.play();
+    sound.play();
 }
